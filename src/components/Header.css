@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 2em;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+}
+.box {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+p {
+    font-size: 1.25em;
+    color: #f5dfbb;
+    word-spacing: 10px;
+    padding-top: 0.75em;
+}
+p > span {
+    color: #f5f3f4;
+}
+.symbol {
+    padding-bottom: 0.5em;
+    color: #f5dfbb;
+}
+.report {
+    color: #ba181b;
+}
